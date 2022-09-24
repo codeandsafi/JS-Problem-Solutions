@@ -6,7 +6,7 @@ const fibonacci = (n) => {
         t1 = t2;
         t2 = t3;
     }
-    return console.log(t3);
+    return t3;
 }
 
-fibonacci(5);
+console.log(fibonacci(5));

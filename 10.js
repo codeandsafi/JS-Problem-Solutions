@@ -7,7 +7,7 @@ var newStr = (str) => {
             str2 =  str2 + str[i];
         }
     }
-    return console.log(str2);
+    str2;
 }
 
-newStr(str);
+console.log(newStr(str));
